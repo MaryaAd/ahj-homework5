@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.pop-content {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-pop {
+  position: relative;
+  background: #DA3B4A;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.triangle {
+  border-top-color: #ccc;
+  border-width: 10px;
+  border-style: solid;
+  border-bottom-width: 0;
+}
