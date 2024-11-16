@@ -23,13 +23,13 @@ describe("Popover functionality", () => {
     });
 
     browser = await puppeteer.launch({
-      headless: true, // set to false if you need GUI
-      slowMo: 50, // add delay to better observe tests
-      devtools: false, // set to true if you need devTools
-      defaultViewport: {
-        width: 1000,
-        height: 1000,
-      },
+      // headless: true, // set to false if you need GUI
+      // slowMo: 50, // add delay to better observe tests
+      // devtools: false, // set to true if you need devTools
+      // defaultViewport: {
+      //   width: 1000,
+      //   height: 1000,
+      // },
     });
 
     page = await browser.newPage();
